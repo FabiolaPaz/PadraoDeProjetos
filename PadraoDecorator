@@ -1,0 +1,11 @@
+Padrões estruturais: esses padrões foram criados levando em conta a estrutura de uma classe e sua composição. 
+O objetivo principal da maioria desses padrões é aumentar a funcionalidade das classes envolvidas, sem alterar muito de sua composição,
+montando objetos e classe em estruturas maiores mais ainda mantendo essa estrutura flexível e eficiente. 
+
+Decorator é um padrão de projeto estutural no qual permite aclopar novos comportamentos e resposabilidades a um objeto de maneira dinâmica.
+Com padrão nós podemos expandir uma instância sem precisar utilizar herança, ele também é conhecido como Wrapper. 
+Podemos usar o padrão decorator para adicionar responsabilidades dinamicamente a objetos individuais e transparentemente sem afetar 
+outros objetos ou quando há responsabilidades que podem ser retiradas, quando a herança geraria uma junção de subclasses.  
+Iremos usar o padrão Decorator quando precisamos ser capazes de projetar comportamentos adicionais para objetos em tempo de execução sem quebrar o código 
+que usa esses objetos. Ele permite estruturar sua lógica em camadas, criar um decorador para cada camada, e compor objetos com várias combinações dessa lógica durante a 
+execurção. É utilizado padrão quando é complicado ou impossível estender o comportamento de um objeto usando herança.
